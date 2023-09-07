@@ -1,10 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glossary</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-
-</body>
+    <body>
+        <header>
+            <div class="contenedor-header">
+                <h1>Web Developer Glossary</h1>
+                <input type="text" id="buscador" placeholder="Buscar una palabra">
+                <button onclick="buscar()">Buscar</button>
+            </div>
+            <div class="contenedor-resultado" id="resultados">
+            </div>
+        </header>
+        <main>
+            <div class="contenedor-main">
+                <div class="definicion" data-palabra="Emmet">
+                    <h3>Emmet</h3>
+                    <p>Es una colección de plug-ins para editores de texto, que realizan diferentes tareas que facilitan la edición de páginas web.</p>
+                </div>
+                <div class="definicion" data-palabra="Markdwon">
+                    <h3>Markdwon</h3>
+                    <p>Es un lenguaje simple que se utiliza para crear texto enriquecido, para editar archivo .md, por ejemplo.</p>
+                </div>
+                <div class="definicion" data-palabra="VSCode">
+                    <h3>VSCode</h3>
+                    <p>Es un editor de codigo.</p>
+                </div>
+                <div class="definicion" data-palabra="Git">
+                    <h3>Git</h3>
+                    <p>Es un gestor de versionado para nueatro software, que se usa con Gitbash.</p>
+                </div>
+                <div class="definicion" data-palabra="CodeSandbox">
+                    <h3>CodeSandbox</h3>
+                    <p>Editor de codigo al estilo de VSCode pero online.</p>
+                </div>
+                <div class="definicion" data-palabra="Node.js">
+                    <h3>Node.js®</h3>
+                    <p>Es un entorno de ejecución para JavaScript construido con V8, motor de JavaScript de Chrome.</p>
+                </div>
+                <div class="definicion" data-palabra="NVM">
+                    <h3>NVM</h3>
+                    <p>Gestor de versiones instaladas de Nodejs.</p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div contenedor-footer>
+                <a href="https://www.facebook.com/matytau86/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/Matu1986" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
+                <a href="https://www.instagram.com/matiper86/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+        </footer>
+        <script src="javascript.js"></script>
+        <script src="https://kit.fontawesome.com/7027fa2602.js" crossorigin="anonymous"></script>
+    </body>
 </html>
