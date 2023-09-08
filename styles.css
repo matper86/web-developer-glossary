@@ -367,18 +367,25 @@ html{
     align-items: center;
     text-align: center;
 }
+.contenedor-header h1{
+    display:inline-block;
+}
 .contenedor-resultado{
     width: 80%;
     margin: 1.5rem auto;
-    padding: 20px;
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.2);
+    padding: 0.5rem;
+    border: 1px solid aquamarine;
+    box-shadow: 2px 4px 4px white;
 }
 .contenedor-main{
     text-align: center;
 }
 .contenedor-footer{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    background-color: aquamarine;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -386,4 +393,14 @@ html{
 }
 i{
     font-size: 2rem;
+    padding: 1rem;
+}
+a:link{
+    color: aquamarine;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: white;
 }

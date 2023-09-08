@@ -17,3 +17,22 @@ function buscar() {
         resultados.innerHTML = '<p>No se encontraron definiciones.</p>';
     }
 }
+// function mostrarElementoOtr() {
+//     var elemento4 = document.getElementById("ocultarDat");
+//     elemento4.style.display = "none";
+//     var elemento4 = document.getElementById("ocultarBie");
+//     elemento4.style.display = "none";
+//     var elemento4 = document.getElementById("ocultarEdu");
+//     elemento4.style.display = "none";
+//     var elemento4 = document.getElementById("ocultarExp");
+//     elemento4.style.display = "none";
+//     var elemento4 = document.getElementById("ocultarObg");
+//     elemento4.style.display = "none";
+//     var elemento4 = document.getElementById("ocultarOtr");
+//     elemento4.style.display = "block";
+// }
+// var enlaceMostrar = document.getElementById("otr");
+// enlaceMostrar.addEventListener("click", function(event) {
+//     event.preventDefault();
+//     mostrarElementoOtr();
+// });
