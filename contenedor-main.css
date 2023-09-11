@@ -1,0 +1,17 @@
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Altura del viewport */
+}
+.contenedor-main{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 1rem;
+    border: 1px solid #7FFFD4FF;
+    box-shadow: 5px 5px 10px white; /* Sombra de la caja */
+}
