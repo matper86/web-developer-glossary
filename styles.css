@@ -1,0 +1,58 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    background: rgb(54, 54, 54);
+    color: aquamarine;
+}
+/*header{*/
+/*    border: 1px solid #7FFFD4FF;*/
+/*}*/
+/*.contenedor-header{*/
+/*    width: 100%;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    text-align: center;*/
+/*    overflow: hidden;*/
+/*}*/
+main{
+    width: 100%;
+    height: 80%; /* height: 100vh, con width: 100%, Centra el main. */
+    padding-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-main{
+    text-align: center;
+    overflow: hidden;
+}
+.contenedor-buscador{
+    width: 80%;
+    text-align: center;
+}
+img {
+    width: 300px;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    align-content: center;
+}
+input{
+    width: 580px;
+    height: 50px;
+    border-radius: 1rem;
+    display: block;
+}
+button{
+    width: 200px;
+    height: 50px;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+/*footer{*/
+/*    border: 1px solid #7FFFD4FF;*/
+/*}*/
+/*.contenedor-footer{*/
+/*    text-align: center;*/
+/*    overflow: hidden;*/
+/*}*/
