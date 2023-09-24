@@ -1,1 +1,4 @@
-/EditArchivos
+.idea/
+EditArchivos/
+*.txt
+
