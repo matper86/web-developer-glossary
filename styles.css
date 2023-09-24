@@ -12,14 +12,6 @@ header{
     position: fixed;
     background-color: #333;
 }
-.contenedor-header{
-    width: 100%;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    text-align: center;
-    overflow: hidden;
-}
 p{
     text-align: right;
 }
@@ -48,8 +40,6 @@ main{
     margin: 1rem;
 }
 img {
-    /*max-width: 300px;*/
-    /*height: auto;*/
     max-width: 16%;
     height: auto;
     padding: 0;
@@ -85,15 +75,21 @@ footer{
 .contenedor-footer{
     width: 100%;
     text-align: center;
-    overflow: hidden;
+    display: block;
 }
 i{
     text-align: center;
     color: aquamarine;
     font-size: 2rem;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 300px) {
     h1 {
         font-size: 1rem;
+    }
+    img{
+        max-width: 16%;
+        height: auto;
+        padding: 0;
+        margin: 0;
     }
 }
